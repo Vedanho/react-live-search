@@ -1,0 +1,40 @@
+.footer_conteiner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 190px;
+  padding: 0px 20px;
+}
+
+.button_footer button {
+  color: white;
+  background-color: rgba(0, 128, 0, 0.904);
+  border: none;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.text_footer {
+  font-size: 20px;
+}
+
+.delete {
+  height: 3px;
+  padding-top: 3px;
+}
+
+.button_footer {
+  height: 20px;
+}
+
+.delete button {
+  background-color: white;
+  color: red;
+  font-size: 12px;
+  padding: 0px;
+}
+
+.delete button:hover {
+  text-decoration: underline;
+}
